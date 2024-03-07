@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cal" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Cal" parent="Base.Theme.Cal" />
+
+    <style name="operatorbutton"  parent="commonbutton">
+        <item name="backgroundTint">#F5ECFA</item>
+        <item name="android:textColor">@color/symbol</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="digitbutton" parent="commonbutton">
+        <item name="android:backgroundTint">#F1FCFD</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="android:textColor">@color/digit</item>
+    </style>
+    <style name="equalbutton" parent="commonbutton">
+        <item name="backgroundTint">@color/symbol</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="commonbutton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+</resources>
+
+
+
